@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="femmestyle.css" rel="stylesheet">
+        
+        <title>femmemuse</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Text&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="최상단">Femmemuse early autumn!</div>
+        <input type="button" value="야간 모드☀" style="float: right; border:0; background-color: transparent; color: gray;" onclick="
+        
+            var target=document.querySelector('body');
+            
+            
+            if(this.value=='야간 모드☀'){
+                target.style.backgroundColor='black';
+                target.style.color='white';
+                this.style.color='white';
+                this.value='야간 모드☽';
+                mode1();
+            }
+            else{
+                target.style.backgroundColor='white';
+                target.style.color='black';
+                this.style.color='gray';
+                this.value='야간 모드☀';
+                mode2();
+            }
+            
+        ">
+        <br>
+        <div class="container">
+            <input id = "but" type="button" value="〓" style="border: 0;background-color: transparent; display: inline-block; font-size: xx-large;" onclick="
+
+            ">
+            <h1 id="femme"><a href="https://femmemuse.co.kr/" target="_blank">FEMMEMUSE</a></h1>
+        </div>
+        <div class="image">
+            <img src="https://cf.product-image.s.zigzag.kr/original/c/14/721/125/147211255-7382357607597068562.jpeg" style="margin-top: 20px;">
+        </div>
+
+        <h4 class="본문" style="margin-bottom: 5px;">
+            Button Sleeveless Top (5 Colors)
+
+        </h4>
+        <div class="본문">
+            <div class="container">
+                판매가
+                <div class="cont">12,000</div>
+                
+            </div>
+            <div class="container">
+                적립금
+                <div class="cont">100원 (1%)</div>
+            </div>
+            
+            
+            <div class="container">
+                색상 
+                <select class="선택" id="drop1">
+                    <option value="0">- [필수] 옵션 선택 -</option>
+                    <option>--------------------------</option>
+                    <option value="1">White</option>
+                    <option value="2">Beige</option>
+                    <option value="3">Melange Grey</option>
+                    <option value="4">Charcoal</option>
+                    <option value="5">Brown</option>
+                </select>
+            </div>
+            <div class="container">
+                크기
+                <select class="선택" id="drop2">
+                    <option value="0">- [필수] 옵션 선택 -</option>
+                    <option>--------------------------</option>
+                    <option value="1">Free</option>
+                </select>
+                
+            </div>
+            <br>
+            <div class="container">
+                <span>Total(QTY): <span id="total">0</span>원 <span style="color: gray; font-size: smaller;">(<span id="개수">0</span>개)</span></span>
+                <span id="rig">
+                    <input class = "right" id="plus" type="button" value="+" style="display: none;" onclick="plus()">
+                    <input class="right" id="minus" type="button" value="-" style="display: none;" onclick="minus()">
+                </span>
+            </div>
+             
+            <br>
+            <input class="login" id="buyn" type="button" value="BUY NOW" onclick="buynow()">
+            
+            <input class="login" type="button" value="ADD TO CART" onclick="buynow()">
+            <input class="login" type="button" value="WISH LIST" onclick="buynow()">
+
+
+            <br><br>
+            <button id="detailsButton">Details</button>
+
+            <div class="info-container" id="infoContainer">
+                <h4 style="margin-bottom: 0px; margin-top: 0px;" class="본문">Model info</h4>
+                <div class="본문">Hyunjin</div>
+                <div class="본문">Height 162 Waist 45 Body 44 Shoes 235</div>
+            </div>
+            <br>
+            <div class="본문 small">beige</div>
+            <br><br>
+            <div class="image">
+                <img src="팜므1.png">
+            </div>
+            <br>
+            <div class="image">
+                <img style="width: 75%;" src="팜므2.png">
+            </div>
+            <br>
+            <div class="image" >
+                <img style="width: 70%;" src="팜므3.png">
+            </div>
+            <br>
+            <div class="image" >
+                <img style="width: 77%;" src="팜므4.png">
+            </div>
+            <br><br>
+            <div id="초록" style="text-align: center;">◈고객센터 안내</div>
+            <div class="본문 small">
+                PM 14:00 ~ PM 18:00 SAT/SUN/HOLIDAY OFF
+                <br>
+                TEL : 010-3360-3234(전화상담불가)
+            </div>
+
+
+
+            
+
+        </div>
+        
+
+
+
+
+
+         
+    </body>
+    <script src="femmejs.js"></script>   
+</html>
