@@ -27,8 +27,8 @@
 }
 .container{
     display: flex;
-    justify-content: space-between;
-    
+    align-items:center;
+    gap:13vw;
     padding-top: 0;
 }
 .image{
@@ -42,21 +42,23 @@
     
 }
 .선택{
-    
+    flex-shrink: 0;
     padding: 2px;
     justify-content: space-between;
     
+    
     border: 1px lightgray solid;
+    
     margin-right: 0px;
     margin-bottom: 2px;
     margin-top: 2px;
-    flex-grow: 0.8;
+    flex-grow: 0.97;
     
 }
 .cont{
     
-    flex-grow: 1;
-    margin-left: 103px;
+    flex-shrink: 0;
+    
     
 }
 #rig{
