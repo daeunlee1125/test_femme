@@ -28,7 +28,7 @@
 .container{
     display: flex;
     align-items:center;
-    gap:13vw;
+    gap:8em;
     padding-top: 0;
 }
 .image{
