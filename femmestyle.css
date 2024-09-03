@@ -1,17 +1,20 @@
 #최상단{
+    display: block;
+    justify-content: center;
     text-align: center;
     background-color: brown;
     color:white;
     padding: 10px;
-    margin: 0px;
+    margin: 0px auto;
     margin-bottom: 3px;
-    width: 95%;
+    width: 97%;
+    /*폰트*/
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: small;
     font-weight: normal;
-}
+} 
 #femme{
     text-align: center;
     flex-grow: 1;
@@ -25,6 +28,7 @@
 .container{
     display: flex;
     justify-content: space-between;
+    
     padding-top: 0;
 }
 .image{
@@ -38,14 +42,16 @@
     
 }
 .선택{
-    display: flex;
+    
     padding: 2px;
     justify-content: space-between;
+    
     border: 1px lightgray solid;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 2px;
     margin-top: 2px;
     flex-grow: 0.8;
+    
 }
 .cont{
     
@@ -103,4 +109,9 @@ a{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     background-color: transparent;
+}
+
+#크기제발{
+    width: 90%;
+    
 }
