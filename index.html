@@ -16,11 +16,12 @@
         <input type="button" value="야간 모드☀" style="float: right; border:0; background-color: transparent; color: gray;" onclick="
         
             var target=document.querySelector('body');
-            
+            var target3=document.querySelector('#최상단');
             
             if(this.value=='야간 모드☀'){
                 target.style.backgroundColor='black';
                 target.style.color='white';
+                target3.style.backgroundColor='rgb(67, 37, 37)';
                 this.style.color='white';
                 this.value='야간 모드☽';
                 mode1();
@@ -28,8 +29,10 @@
             else{
                 target.style.backgroundColor='white';
                 target.style.color='black';
+                target3.style.backgroundColor='brown';
                 this.style.color='gray';
                 this.value='야간 모드☀';
+
                 mode2();
             }
             
@@ -62,7 +65,7 @@
             
             
             <div class="container">
-                색상 
+                색상&nbsp;&nbsp;
                 <select class="선택" id="drop1">
                     <option value="0">- [필수] 옵션 선택 -</option>
                     <option>--------------------------</option>
@@ -74,7 +77,7 @@
                 </select>
             </div>
             <div class="container">
-                크기
+                크기&nbsp;&nbsp;
                 <select class="선택" id="drop2">
                     <option value="0">- [필수] 옵션 선택 -</option>
                     <option>--------------------------</option>
@@ -137,12 +140,7 @@
             
 
         </div>
-        
 
-
-
-
-        
          
     </body>
     <script src="femmejs.js"></script>   
