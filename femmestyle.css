@@ -31,6 +31,9 @@
     gap:8em;
     padding-top: 0;
 }
+#제목{
+    gap: 0px;
+}
 .image{
     display: flex;
     justify-content: center;
@@ -91,6 +94,8 @@ a{
     font-weight: lighter;
     text-align: center;
 }
+
+
 
 
 
